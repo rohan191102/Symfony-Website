@@ -1,0 +1,22 @@
+.flex-container-home > div {
+    background-color: darkcyan;
+    margin: 40px;
+    padding: 20px;
+    font-size: 20px;
+    align-content: flex-end;
+}
+.flex-container-feedback{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    justify-content: flex-start;
+}
+.flex-container-author{
+    display: flex;
+    height: 50px;
+    border-radius: 15px;
+    align-items: center;
+    flex-direction: row;
+}

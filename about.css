@@ -1,0 +1,14 @@
+.flex-container-home > div {
+    background-color: darkcyan;
+    margin: 40px;
+    padding: 20px;
+    font-size: 20px;
+    align-content: flex-end;
+}
+.flex-container-about{
+    display:flex;
+    border-radius: 15px;
+    height: 200px;
+    align-items: center;
+    background-color: whitesmoke;
+}

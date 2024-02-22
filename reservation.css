@@ -1,0 +1,32 @@
+.flex-container-home > div {
+    background-color: darkcyan;
+    margin: 40px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    align-content: flex-end;
+}
+.flex-container-reservation{
+    display:flex;
+    border-radius: 15px;
+    background-color:whitesmoke;
+    flex-direction: column;
+}
+.flex-container-fase{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    flex-direction: row;
+}
+.flex-container-email{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    flex-direction: row;
+}
+.flex-container-checkbox1{
+    display:flex;
+}
+.flex-container-checkbox2{
+    display:flex;
+}
