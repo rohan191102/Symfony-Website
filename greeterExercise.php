@@ -6,7 +6,7 @@
 </head>
 <body>
   <?php
-  require_once 'Greeter.php'; // Adjust the path as necessary
+  require_once 'Greeter.php';
   $greeter = new Greeter();
   $greeting = $greeter->getGreeting();
   ?>
