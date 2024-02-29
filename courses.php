@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="CouBooks.css">
-    <link rel="stylesheet" type="text/css" href="about.css">
+    <link rel="stylesheet" type="text/css" href="courses.css">
 </head>
 <body>
 <div class="flex-container">
@@ -15,18 +16,27 @@
     <div class="flex-container-home">
         <ul>
             <div class = "flex-container-home">
-                <div><a href = "CouBooks.html">Home</a></div>
+                <div><a href = "CouBooks.php">Home</a></div>
                 <div><a href = "courses.html">Courses</a></div>
-                <div><a href = "reservation.html">Reservation</a></div>
-                <div><a href = "about.html">About</a></div>
+                <div><a href = "reservation.php">Reservation</a></div>
+                <div><a href = "about.php">About</a></div>
             </div>
         </ul>
     </div>
 </div>
 <div class="flex-container-white"></div>
-<div class="flex-container-about">
+<div class = "flex-container-courses1">
     <section>
-        &nbsp; &nbsp;ABOUT THIS WEBSITE...
+        Below you can find an overview of all available courses<br><br>
+        <h3>Computer Networks</h3>
+        <ul>
+            <li>Computer Networking: A top down approach</li>
+        </ul>
+        <h3>Operating Systems</h3>
+        <ul>
+            <li>Silberschatz's Operating Systems concepts</li>
+            <li>Printout version of lecture slides</li>
+        </ul>
     </section>
 </div>
 <div class="flex-container-white"></div>

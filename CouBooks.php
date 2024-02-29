@@ -16,9 +16,9 @@
             <ul>
                 <div class = "flex-container-home">
                     <div><a href = "CouBooks.html">Home</a></div>
-                    <div><a href = "courses.html">Courses</a></div>
-                    <div><a href = "reservation.html">Reservation</a></div>
-                    <div><a href = "about.html">About</a></div>
+                    <div><a href = "courses.php">Courses</a></div>
+                    <div><a href = "reservation.php">Reservation</a></div>
+                    <div><a href = "about.php">About</a></div>
                 </div>
             </ul>
         </div>
@@ -47,7 +47,7 @@
                 <h3>Feedback</h3>
                 <aside>This concept is awesome! Also, the site looks nice and stylish(Joreon) &nbsp; &nbsp;<br>
                     <br>Is there also a mobile app for this site?(Patrick)<br>
-                    <a href = " feedback.html"> <br>Add feedback...</a></aside>
+                    <a href = "feedback.php"> <br>Add feedback...</a></aside>
             </section>
 
        </div>
