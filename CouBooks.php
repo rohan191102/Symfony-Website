@@ -1,3 +1,6 @@
+<?php
+require_once 'displayFeedback.php';
+?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -46,8 +49,10 @@
                 <dd><li>Fri:1pm-4pm</li></dd>
                 <h3>Feedback</h3>
                 <aside>This concept is awesome! Also, the site looks nice and stylish(Joreon) &nbsp; &nbsp;<br>
-                    <br>Is there also a mobile app for this site?(Patrick)<br>
+                    <br>Is there also a mobile app for this site?(Patrick)
+                    <?php echo displayAllFeedback(); ?>
                     <a href = "feedback.php"> <br>Add feedback...</a></aside>
+                <aside>
             </section>
 
        </div>

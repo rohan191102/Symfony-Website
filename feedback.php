@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="CouBooks.css">
     <link rel="stylesheet" type="text/css" href="feedback.css">
+
 </head>
 <body>
 <div class="flex-container">
@@ -24,18 +26,22 @@
     </div>
 </div>
 <div class="flex-container-white"></div>
-<div class ="flex-container-feedback">
+<div class="flex-container-feedback">
     <section>
         <h4>ADD FEEDBACK...</h4>
-        <div class="flex-container-author">
-            Author:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" id="authorInput" placeholder="">
-        </div>
-        Feedback<br><br>
-        <input type="text" id="feedbackInput" placeholder="" style="width: 350px; height: 100px"><br><br>
-        <button>Submit</button><br><br>
+        <form method="post" action="submit_feedback.php">
+            <div class="flex-container-author">
+                Author:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="author" id="authorInput" placeholder="">
+            </div>
+            Feedback<br><br>
+            <textarea name="feedback" id="feedbackInput" placeholder="" style="width: 350px; height: 100px"></textarea><br><br>
+            <button type="submit">Submit</button><br><br>
+        </form>
+
     </section>
 </div>
+
 <div class="flex-container-white"></div>
 <div class = 'flex-container-footer'>
     <footer>
