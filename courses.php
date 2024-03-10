@@ -1,3 +1,6 @@
+<?php
+require_once 'displayBooks.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,6 +40,7 @@
             <li>Silberschatz's Operating Systems concepts</li>
             <li>Printout version of lecture slides</li>
         </ul>
+        <?php echo displayBooks(); ?>
     </section>
 </div>
 <div class="flex-container-white"></div>
