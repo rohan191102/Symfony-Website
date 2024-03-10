@@ -18,7 +18,7 @@
                 <div><a href = "CouBooks.php">Home</a></div>
                 <div><a href = "courses.php">Courses</a></div>
                 <div><a href = "reservation.php">Reservation</a></div>
-                <div><a href = "about.html">About</a></div>
+                <div><a href = "about.php">About</a></div>
             </div>
         </ul>
     </div>
