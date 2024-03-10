@@ -9,7 +9,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $feedback->setAuthor($author);
     $feedback->save();
     exit();
-} else {
+}
+else {
     echo "Invalid request";
 }
 ?>

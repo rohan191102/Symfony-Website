@@ -29,7 +29,7 @@
 <div class="flex-container-feedback">
     <section>
         <h4>ADD FEEDBACK...</h4>
-        <form method="post" action="submit_feedback.php">
+        <form method="post" action="submitFeedback.php">
             <div class="flex-container-author">
                 Author:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <input type="text" name="author" id="authorInput" placeholder="">

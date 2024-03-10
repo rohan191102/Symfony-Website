@@ -61,7 +61,7 @@ require_once 'displayFeedback.php';
     </div>
     <div class="flex-container-footer">
         <footer>
-            <p>Copyright &copy; 2022 WebTech. KUL ALL Rights Reserved. <a href = " ">Privacy Policy</a> | <a href = " ">Terms of Use</a></p>
+            <p>Copyright &copy@ 2022 WebTech. KUL ALL Rights Reserved. <a href = " ">Privacy Policy</a> | <a href = " ">Terms of Use</a></p>
         </footer>
     </div>
 </body>
